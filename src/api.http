@@ -1,0 +1,12 @@
+GET http://localhost:3000/lists
+
+###
+POST http://localhost:3000/lists
+Content-Type: application/json
+
+{
+    "name": "testxpto2"
+}
+
+###
+GET http://localhost:8000/lists
